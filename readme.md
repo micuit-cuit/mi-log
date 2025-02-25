@@ -54,7 +54,7 @@ log.success("'success' is an alias for 's'");
 log.c("You can use 'c', 'console' for raw console messages");
 log.console("Console displays the message similar to console.log");
 ```
-![](image.png)
+![](https://github.com/micuit-cuit/mi-log/blob/main/image.png)
 ## Features
 
 - Simple and easy-to-use logging methods.
