@@ -1,0 +1,12 @@
+{
+    "processColor":  [
+        "green"
+    ],
+    "resetLogfileInRestart":false,
+    "miLogServer": {
+        "port": 3000,
+        "url": "http://localhost",
+        "active": false
+    },
+    "process": {}
+}

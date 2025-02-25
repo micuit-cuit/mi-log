@@ -1,0 +1,26 @@
+{
+  "name": "mi-log",
+  "version": "3.0.0",
+  "exports": {
+    ".": "./index.js",
+    "./miniLog": "./src/minilog.js"
+  },
+  "bugs": {
+    "email": "contact@micuit-cuit.com"
+  },
+  "keywords": [
+    "log",
+    "logger",
+    "mi-log",
+    "micuit-lib"
+  ],
+  "author": "micuit-cuit <contact@micuit-cuit.com> (https://micuit-cuit.com)",
+  "license": "ISC",
+  "description": "",
+  "files": [
+      "index.js",
+      "readme.md",
+      "src/"
+  ]
+  
+}
