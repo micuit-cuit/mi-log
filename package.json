@@ -1,6 +1,6 @@
 {
   "name": "mi-log",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "exports": {
     ".": "./index.js",
     "./miniLog": "./src/minilog.js"
