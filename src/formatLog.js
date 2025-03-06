@@ -58,6 +58,11 @@ function formatLog({ level, support256Color, prefixes, useTextColor }, ...args) 
                 formattedArgs.push(str);
                 continue;
             }
+            if (typeof args[i] == "function") {
+                str = color + args[i].toString() + colorize('reset', support256Color);
+                formattedArgs.push(str);
+                continue;
+            }
             str = color + args[i] + colorize('reset', support256Color);
             formattedArgs.push(str);
         }
